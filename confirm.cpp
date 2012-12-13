@@ -22,6 +22,6 @@ int main (int argc, char * argv[]) {
     return 1;
   }
   else { 
-    return 3;
+    return 2;
   }
 }
