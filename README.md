@@ -11,3 +11,8 @@ example usage for shell:
     if confirm; then echo "Whoot!"
     else echo "Okay, that's fine."
     fi
+Alternatively using integrated strings:
+
+    if confirm "Are you sure?"; then echo "Whoot!"
+    else echo "Okay..."
+    fi
